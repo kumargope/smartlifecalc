@@ -1,0 +1,11 @@
+# SmartLifeCalc Robots.txt
+User-agent: *
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://smartlifecalc.com/sitemap.xml

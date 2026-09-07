@@ -1,0 +1,670 @@
+/* SmartLifeCalc - Vibrant Colorful 3D Components Stylesheet */
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+
+.breadcrumb a {
+  color: var(--text-muted);
+}
+
+.breadcrumb a:hover {
+  color: #ec4899;
+}
+
+.breadcrumb span.separator {
+  color: #cbd5e1;
+}
+
+/* Page Header & Intro */
+.page-intro {
+  margin-bottom: 2.5rem;
+}
+
+.page-intro h1 {
+  font-size: 2.65rem;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, #0f172a 0%, #3b82f6 50%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.page-intro p {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  max-width: 48rem;
+  line-height: 1.65;
+}
+
+/* -------------------------------------------------------------
+   3D INTERACTIVE CURSOR & TOUCH TRACKING EYE MASCOT STYLES
+   ------------------------------------------------------------- */
+.smart-eye-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem auto;
+  user-select: none;
+}
+
+.smart-eye-3d {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #ffffff 0%, #e2e8f0 70%, #cbd5e1 100%);
+  box-shadow: 0 15px 30px -5px rgba(236, 72, 153, 0.3), 
+              0 8px 15px -3px rgba(139, 92, 246, 0.25),
+              inset 0 -5px 12px rgba(0, 0, 0, 0.15),
+              inset 0 5px 10px rgba(255, 255, 255, 0.9);
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  transform-style: preserve-3d;
+  transition: transform 0.1s cubic-bezier(0.2, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.eye-outer-ring {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ec4899, #8b5cf6, #3b82f6, #10b981);
+  z-index: -1;
+  filter: blur(4px);
+  opacity: 0.85;
+  animation: rotateRing 8s linear infinite;
+}
+
+@keyframes rotateRing {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.eye-sclera {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.eye-iris {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 40%, #06b6d4 0%, #8b5cf6 50%, #ec4899 100%);
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.6), inset 0 0 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  will-change: transform;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.eye-pupil {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #090d16;
+  position: relative;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.9);
+  transition: width 0.25s ease, height 0.25s ease;
+}
+
+.eye-pupil.dilated {
+  width: 28px;
+  height: 28px;
+  background: #020617;
+  box-shadow: 0 0 10px rgba(236, 72, 153, 0.8);
+}
+
+.eye-glint {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 7px;
+  height: 7px;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #ffffff;
+}
+
+.eye-eyelid {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: #f8fafc;
+  z-index: 10;
+  transition: transform 0.15s ease;
+}
+
+.top-eyelid {
+  top: 0;
+  transform: translateY(-100%);
+  border-bottom: 2px solid #cbd5e1;
+}
+
+.bottom-eyelid {
+  bottom: 0;
+  transform: translateY(100%);
+  border-top: 2px solid #cbd5e1;
+}
+
+.smart-eye-3d.blinking .top-eyelid {
+  transform: translateY(0%);
+}
+
+.smart-eye-3d.blinking .bottom-eyelid {
+  transform: translateY(0%);
+}
+
+.smart-eye-label {
+  font-size: 0.8rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.pulse-dot {
+  width: 7px;
+  height: 7px;
+  background: #10b981;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #10b981;
+  animation: pulseGlow 1.5s infinite;
+}
+
+@keyframes pulseGlow {
+  0% { opacity: 0.4; transform: scale(0.9); }
+  50% { opacity: 1; transform: scale(1.3); }
+  100% { opacity: 0.4; transform: scale(0.9); }
+}
+
+/* Main Layout Grid */
+.calc-layout-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 2.25rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .calc-layout-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 3D Calculator Card */
+.calc-card {
+  padding: 2.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.calc-card-title {
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f1f5f9;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Form Controls */
+.form-group {
+  margin-bottom: 1.6rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.5rem;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-prefix,
+.input-suffix {
+  position: absolute;
+  font-weight: 800;
+  color: #8b5cf6;
+  pointer-events: none;
+  font-size: 1.05rem;
+}
+
+.input-prefix {
+  left: 1.1rem;
+}
+
+.input-suffix {
+  right: 1.1rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.95rem 1.15rem;
+  font-size: 1.1rem;
+  font-family: inherit;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  color: var(--text-main);
+  transition: all 0.2s cubic-bezier(0.2, 0, 0.2, 1);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.form-control.has-prefix {
+  padding-left: 2.4rem;
+}
+
+.form-control.has-suffix {
+  padding-right: 2.6rem;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #8b5cf6;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.01);
+  transform: translateY(-1px);
+}
+
+.form-hint {
+  font-size: 0.825rem;
+  color: var(--text-muted);
+  margin-top: 0.4rem;
+}
+
+/* Vibrant 3D Buttons & Presets */
+.preset-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.preset-btn {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  color: var(--text-main);
+  font-weight: 800;
+  font-size: 0.875rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.preset-btn:hover,
+.preset-btn.active {
+  background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+  border-color: transparent;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(236, 72, 153, 0.35);
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2.25rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 50%, #3b82f6 100%);
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 900;
+  padding: 1rem 2.25rem;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 160px;
+  box-shadow: 0 12px 25px -5px rgba(236, 72, 153, 0.45);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 16px 30px -5px rgba(139, 92, 246, 0.55);
+}
+
+.btn-secondary {
+  background: #ffffff;
+  color: var(--text-main);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 1.6rem;
+  border-radius: var(--radius-md);
+  border: 2px solid #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary:hover {
+  background: var(--input-bg);
+  border-color: #8b5cf6;
+  color: #8b5cf6;
+  transform: translateY(-2px);
+}
+
+/* 3D Vibrant Result Card */
+.result-card {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #311042 100%);
+  color: #ffffff;
+  padding: 2.25rem;
+  border-radius: var(--radius-lg);
+  margin-top: 2.25rem;
+  box-shadow: 0 25px 40px -10px rgba(236, 72, 153, 0.35), 0 0 30px rgba(139, 92, 246, 0.25);
+  border: 2px solid #8b5cf6;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.result-card.flip-3d-active {
+  animation: flip3D 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes flip3D {
+  0% {
+    transform: perspective(800px) rotateX(-25deg) scale(0.96);
+    opacity: 0.7;
+  }
+  50% {
+    transform: perspective(800px) rotateX(10deg) scale(1.02);
+  }
+  100% {
+    transform: perspective(800px) rotateX(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.result-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.result-card-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #a855f7;
+  font-weight: 900;
+}
+
+.copy-result-btn {
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.3), rgba(139, 92, 246, 0.3));
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 800;
+  padding: 0.45rem 0.95rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(4px);
+}
+
+.copy-result-btn:hover {
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  transform: translateY(-2px);
+}
+
+.result-main-value {
+  font-size: 3.25rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #38bdf8 0%, #a855f7 50%, #f43f5e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #334155;
+}
+
+.result-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-item-label {
+  font-size: 0.825rem;
+  color: #94a3b8;
+  margin-bottom: 0.3rem;
+}
+
+.result-item-value {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #f8fafc;
+}
+
+/* Article Content & SEO Content */
+.content-article {
+  padding: 2.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.content-article h2 {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: var(--text-main);
+  margin: 2.25rem 0 1rem 0;
+  letter-spacing: -0.025em;
+}
+
+.content-article h2:first-child {
+  margin-top: 0;
+}
+
+.content-article p {
+  font-size: 1.05rem;
+  color: #334155;
+  line-height: 1.75;
+  margin-bottom: 1.35rem;
+}
+
+.formula-box {
+  background: linear-gradient(135deg, #f0fdf4 0%, #f0f9ff 50%, #faf5ff 100%);
+  border-left: 6px solid #8b5cf6;
+  padding: 1.4rem 1.65rem;
+  border-radius: var(--radius-sm);
+  margin: 1.75rem 0;
+  font-family: monospace;
+  font-size: 1.15rem;
+  color: #4c1d95;
+  font-weight: 800;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.1);
+}
+
+/* 3D Colorful Pinterest Share Card */
+.pinterest-share-card {
+  background: linear-gradient(135deg, #fff1f2 0%, #fdf2f8 50%, #fae8ff 100%);
+  border: 2px solid #f43f5e;
+  padding: 2rem;
+  margin: 2.75rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  box-shadow: 0 12px 25px -5px rgba(244, 63, 94, 0.25);
+}
+
+.pinterest-share-info h3 {
+  color: #e11d48;
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-bottom: 0.35rem;
+}
+
+.pinterest-share-info p {
+  color: #9f1239;
+  font-size: 0.975rem;
+  font-weight: 600;
+}
+
+.pinterest-btn {
+  background: linear-gradient(135deg, #e60023 0%, #be123c 100%);
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 0.95rem;
+  padding: 0.9rem 1.5rem;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(230, 0, 35, 0.35);
+  white-space: nowrap;
+}
+
+.pinterest-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 14px 25px rgba(230, 0, 35, 0.45);
+}
+
+/* FAQ Accordion */
+.faq-item {
+  border: 2px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  margin-bottom: 0.85rem;
+  overflow: hidden;
+  background: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.faq-item:hover {
+  border-color: #8b5cf6;
+  box-shadow: 0 8px 16px rgba(139, 92, 246, 0.12);
+}
+
+.faq-question {
+  width: 100%;
+  padding: 1.25rem 1.35rem;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text-main);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.faq-answer {
+  padding: 0 1.35rem 1.35rem 1.35rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.65;
+  display: none;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+  color: #ec4899;
+}
+
+/* Ad Placeholder */
+.ad-placeholder {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border: 2px dashed #cbd5e1;
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
+
+/* Related Calculators Grid */
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.related-card {
+  padding: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #f1f5f9;
+}
+
+.related-card h4 {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 0.35rem;
+}
+
+.related-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}

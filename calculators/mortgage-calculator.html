@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mortgage Calculator — SmartLifeCalc 3D</title>
+  <meta name="description" content="Free Mortgage Calculator. Estimate monthly principal and interest payments for 15, 20, or 30 year home loans.">
+  <link rel="canonical" href="https://smartlifecalc.com/calculators/mortgage-calculator.html">
+
+  <!-- OpenGraph / Social Metadata -->
+  <meta property="og:title" content="Mortgage Calculator — SmartLifeCalc 3D">
+  <meta property="og:description" content="Free Mortgage Calculator. Estimate monthly principal and interest payments for 15, 20, or 30 year home loans.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://smartlifecalc.com/calculators/mortgage-calculator.html">
+  <meta property="og:image" content="https://smartlifecalc.com/assets/pinterest-banner.png">
+
+  <!-- Twitter Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mortgage Calculator">
+  <meta name="twitter:description" content="Free Mortgage Calculator. Estimate monthly principal and interest payments for 15, 20, or 30 year home loans.">
+  <meta name="twitter:image" content="https://smartlifecalc.com/assets/pinterest-banner.png">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Mortgage Calculator \u2014 SmartLifeCalc 3D",
+  "url": "https://smartlifecalc.com/calculators/mortgage-calculator.html",
+  "description": "Free Mortgage Calculator. Estimate monthly principal and interest payments for 15, 20, or 30 year home loans.",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "All"
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://smartlifecalc.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Home",
+      "item": "https://smartlifecalc.com/#categories"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mortgage Calculator",
+      "item": "https://smartlifecalc.com/calculators/mortgage-calculator.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does this include property taxes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This calculator estimates monthly Principal and Interest (P&I). Taxes and insurance vary locally."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-nav">
+      <a href="/index.html" class="logo">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#logoGrad2)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+          <defs>
+            <linearGradient id="logoGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#ec4899" />
+              <stop offset="50%" stop-color="#8b5cf6" />
+              <stop offset="100%" stop-color="#3b82f6" />
+            </linearGradient>
+          </defs>
+          <rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/>
+        </svg>
+        SmartLife<span>Calc</span>
+        <span class="logo-badge">Vibrant 3D</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/index.html">Home</a>
+        <a href="/index.html#popular">Popular</a>
+        <a href="/index.html#categories">Categories</a>
+        <a href="/legal/disclaimer.html">Disclaimer</a>
+      </nav>
+      <div class="header-actions">
+        <button class="search-trigger" id="headerSearchTrigger" aria-label="Search calculators">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span>Search...</span>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul class="mobile-nav-list">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/index.html#popular">Popular Calculators</a></li>
+      <li><a href="/legal/privacy.html">Privacy Policy</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <div class="container">
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/index.html">Home</a>
+        <span class="separator">/</span>
+        <a href="/index.html#categories">Home</a>
+        <span class="separator">/</span>
+        <span>Mortgage Calculator</span>
+      </nav>
+
+      <!-- Page Intro -->
+      <div class="page-intro">
+        <h1>Free Mortgage Calculator — Estimate Monthly Payments</h1>
+        <p>Calculate your estimated monthly mortgage principal and interest payment instantly.</p>
+      </div>
+
+      <!-- Main Layout Grid -->
+      <div class="calc-layout-grid">
+        <div class="calc-main-column">
+          
+          <!-- 3D Calculator Card -->
+          <div class="calc-card">
+            <h2 class="calc-card-title">
+              <span>🏡</span>
+              <span>Mortgage Calculator</span>
+            </h2>
+
+            <form id="calcForm" onsubmit="event.preventDefault(); calculate();">
+              
+          <div class="form-group"><label for="mPrice">Home Price ($)</label><div class="input-wrapper"><span class="input-prefix">$</span><input type="number" id="mPrice" class="form-control has-prefix" value="350000"></div></div>
+          <div class="form-group"><label for="mDown">Down Payment ($)</label><div class="input-wrapper"><span class="input-prefix">$</span><input type="number" id="mDown" class="form-control has-prefix" value="70000"></div></div>
+          <div class="form-group"><label for="mRate">Interest Rate (%)</label><div class="input-wrapper"><input type="number" id="mRate" class="form-control has-suffix" value="6.5"><span class="input-suffix">%</span></div></div>
+          <div class="form-group"><label for="mTerm">Loan Term (Years)</label><input type="number" id="mTerm" class="form-control" value="30"><div class="preset-buttons"><button type="button" class="preset-btn" onclick="setTerm(15)">15 Yrs</button><button type="button" class="preset-btn" onclick="setTerm(20)">20 Yrs</button><button type="button" class="preset-btn active" onclick="setTerm(30)">30 Yrs</button></div></div>
+        
+
+              <div class="button-row">
+                <button type="button" class="btn-primary" onclick="calculate()">Calculate</button>
+                <button type="button" class="btn-secondary" onclick="resetCalc()">Reset</button>
+              </div>
+            </form>
+
+            <!-- Large 3D Result Card -->
+            
+          <div class="result-card">
+            <div class="result-card-header"><span class="result-card-title">Mortgage Estimate</span><button class="copy-result-btn" data-copy-target="resMortPmt">Copy Result</button></div>
+            <div class="result-item-label">Monthly Principal & Interest</div>
+            <div class="result-main-value" id="resMortPmt">$1,769.79</div>
+            <div class="result-grid">
+              <div class="result-item"><span class="result-item-label">Loan Amount</span><span class="result-item-value" id="resMortLoan">$280,000.00</span></div>
+              <div class="result-item"><span class="result-item-label">Total Interest Paid</span><span class="result-item-value" id="resMortInt">$357,126.17</span></div>
+            </div>
+          </div>
+        
+          </div>
+
+          <!-- SEO Content Article Section -->
+          <article class="content-article">
+            <h2>About Mortgage Calculator</h2>
+            <p>Results are estimates for informational purposes only and may differ from actual amounts. Always verify financial information with a licensed professional.</p>
+
+            <h2>Formula & How It Works</h2>
+            <div class="formula-box">
+              Monthly Payment = [P × r(1+r)^n] ÷ [(1+r)^n - 1]
+            </div>
+
+            <h2>Step-by-Step Example Calculation</h2>
+            <p style="white-space: pre-line;">A $350,000 home with $70,000 down (20%) at 6.5% interest for 30 years yields $1,769.79 monthly P&I.</p>
+
+            <h2>Helpful Tips & Practical Advice</h2>
+            <ul>
+              <li>Always verify numbers before making final financial decisions or purchases.</li>
+              <li>Inputs update results dynamically in real-time.</li>
+              <li>Calculations run 100% locally in your browser with zero server data storage.</li>
+            </ul>
+
+            <!-- Pinterest Strategy Share Card -->
+            <div class="pinterest-share-card">
+              <div class="pinterest-share-info">
+                <h3>Save this calculator for later</h3>
+                <p>Pin Mortgage Calculator to your favorite Pinterest board for fast access anytime!</p>
+              </div>
+              <button class="pinterest-btn" onclick="shareToPinterest('https://smartlifecalc.com/calculators/mortgage-calculator.html', 'https://smartlifecalc.com/assets/pinterest-banner.png', 'Mortgage Calculator — Free Calculator on SmartLifeCalc')">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
+                Save to Pinterest
+              </button>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+              <h2>Frequently Asked Questions</h2>
+              
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Does this include property taxes?</span>
+              <span class="faq-icon">▼</span>
+            </button>
+            <div class="faq-answer">This calculator estimates monthly Principal and Interest (P&I). Taxes and insurance vary locally.</div>
+          </div>
+        
+            </div>
+          </article>
+
+          <!-- Related Calculators -->
+          <div class="related-calcs">
+            <h3>Related Calculators</h3>
+            <div class="related-grid">
+              
+          <a href="/calculators/home-affordability-calculator.html" class="related-card">
+            <h4>Home Affordability Calculator</h4>
+            <p>Calculate home affordability calculator instantly.</p>
+          </a>
+        
+          <a href="/calculators/rent-vs-buy-calculator.html" class="related-card">
+            <h4>Rent Vs Buy Calculator</h4>
+            <p>Calculate rent vs buy calculator instantly.</p>
+          </a>
+        
+          <a href="/calculators/car-loan-calculator.html" class="related-card">
+            <h4>Car Loan Calculator</h4>
+            <p>Calculate car loan calculator instantly.</p>
+          </a>
+        
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Sidebar / Ad Placeholder -->
+        <aside class="calc-sidebar">
+          <div class="ad-placeholder" style="min-height: 250px; display: flex; align-items: center; justify-content: center;">
+            Display Ad Placeholder<br>(Responsive Banner)
+          </div>
+          <div class="ad-placeholder" style="min-height: 400px; display: flex; align-items: center; justify-content: center; margin-top: 1.5rem;">
+            Display Ad Placeholder<br>(Sidebar Half-Page)
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 SmartLifeCalc. All rights reserved.</p>
+        <p><a href="/index.html" style="color:#94a3b8;">Home</a> | <a href="/legal/privacy.html" style="color:#94a3b8;">Privacy</a> | <a href="/legal/disclaimer.html" style="color:#94a3b8;">Disclaimer</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search Modal Overlay -->
+  <div class="search-modal-overlay" id="searchModalOverlay">
+    <div class="search-modal">
+      <div class="search-input-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="modalSearchInput" placeholder="Type a calculator name or keyword...">
+        <button class="search-close-btn" id="searchCloseBtn">✕</button>
+      </div>
+      <div class="search-results-list" id="searchResultsList"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/js/data/calculators-registry.js"></script>
+  <script src="/js/calculator-engine.js"></script>
+  <script src="/js/3d-effects.js"></script>
+  <script src="/js/interactive-eye.js"></script>
+  <script src="/js/app.js"></script>
+  <script>
+    
+          function setTerm(t) { document.getElementById('mTerm').value = t; calculate(); }
+          function calculate() {
+            const p = parseFloat(document.getElementById('mPrice').value)||0;
+            const d = parseFloat(document.getElementById('mDown').value)||0;
+            const r = parseFloat(document.getElementById('mRate').value)||0;
+            const y = parseInt(document.getElementById('mTerm').value)||30;
+            const res = CalcEngine.calculateMortgage(p, d, r, y);
+            document.getElementById('resMortPmt').innerText = CalcEngine.formatCurrency(res.monthlyPayment);
+            document.getElementById('resMortLoan').innerText = CalcEngine.formatCurrency(res.loanAmount);
+            document.getElementById('resMortInt').innerText = CalcEngine.formatCurrency(res.totalInterest);
+            if(window.trigger3DResultAnimation) window.trigger3DResultAnimation();
+          }
+          function resetCalc() { document.getElementById('mPrice').value='350000'; document.getElementById('mDown').value='70000'; document.getElementById('mRate').value='6.5'; document.getElementById('mTerm').value='30'; calculate(); }
+          document.querySelectorAll('input').forEach(i => i.addEventListener('input', calculate));
+          window.addEventListener('DOMContentLoaded', calculate);
+        
+  </script>
+</body>
+</html>

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartLifeCalc — Vibrant 3D Calculators for Everyday Life</title>
+  <meta name="description" content="100% free colorful 3D everyday calculators for finance, home, car, date differences, shopping, and unit conversions. Fast, private client-side calculations with zero sign up.">
+  <link rel="canonical" href="https://smartlifecalc.com/">
+  
+  <!-- OpenGraph / Social -->
+  <meta property="og:title" content="SmartLifeCalc — Vibrant 3D Calculators for Everyday Life">
+  <meta property="og:description" content="Free everyday calculators for financial planning, mortgage payments, tip splitting, gas costs, age calculation, and unit conversions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://smartlifecalc.com/">
+  <meta property="og:image" content="https://smartlifecalc.com/assets/pinterest-banner.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "SmartLifeCalc",
+    "url": "https://smartlifecalc.com/",
+    "description": "Free everyday colorful 3D SaaS calculators for US users.",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="header">
+    <div class="container header-nav">
+      <a href="/index.html" class="logo">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="url(#logoGrad)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+          <defs>
+            <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#ec4899" />
+              <stop offset="50%" stop-color="#8b5cf6" />
+              <stop offset="100%" stop-color="#3b82f6" />
+            </linearGradient>
+          </defs>
+          <rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/>
+        </svg>
+        SmartLife<span>Calc</span>
+        <span class="logo-badge">Vibrant 3D</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="/index.html" class="active">Home</a>
+        <a href="#popular">Popular</a>
+        <a href="#categories">Categories</a>
+        <a href="/legal/disclaimer.html">Disclaimer</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="search-trigger" id="headerSearchTrigger" aria-label="Search calculators">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span>Search...</span>
+          <kbd style="font-size:0.75rem; background:linear-gradient(135deg, #ec4899, #8b5cf6); color:#fff; padding:0.15rem 0.45rem; border-radius:4px; margin-left:0.5rem; font-weight:800;">Ctrl K</kbd>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul class="mobile-nav-list">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="#popular">Popular Calculators</a></li>
+      <li><a href="#categories">Money Calculators</a></li>
+      <li><a href="#categories">Home Calculators</a></li>
+      <li><a href="#categories">Car & Travel Calculators</a></li>
+      <li><a href="#categories">Date & Time Calculators</a></li>
+      <li><a href="#categories">Shopping Calculators</a></li>
+      <li><a href="#categories">Unit Converters</a></li>
+      <li><a href="/legal/privacy.html">Privacy Policy</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- Vibrant 3D Hero Section -->
+    <section style="padding: 4rem 0 3.5rem 0; text-align: center; position: relative;">
+      <div class="container" style="max-width: 860px;">
+        
+        <!-- Interactive 3D Cursor & Touch Tracking Eye Component Container -->
+        <div style="display:flex; justify-content:center; margin-bottom:1rem;"></div>
+
+        <span style="background: linear-gradient(135deg, #fdf2f8 0%, #f3e8ff 50%, #e0f2fe 100%); color: #8b5cf6; border: 2px solid #c084fc; font-size: 0.85rem; font-weight: 900; padding: 0.45rem 1.2rem; border-radius: var(--radius-full); text-transform: uppercase; letter-spacing: 0.08em; display: inline-block; margin-bottom: 1.25rem; box-shadow: 0 6px 16px rgba(236, 72, 153, 0.2);">
+          👁️ Interactive 3D AI Eye Tracking Enabled
+        </span>
+        <h1 style="font-size: 3.5rem; font-weight: 900; letter-spacing: -0.04em; line-height: 1.15; margin-bottom: 1.35rem; background: linear-gradient(135deg, #0f172a 0%, #ec4899 40%, #8b5cf6 70%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+          Free Calculators for Everyday Life
+        </h1>
+        <p style="font-size: 1.25rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 2.5rem; font-weight: 600;">
+          Calculate tips, discounts, loans, mortgage payments, gas costs, dates, conversions and more — instantly.
+        </p>
+
+        <!-- Vibrant 3D Search Bar Hero -->
+        <div style="max-width: 640px; margin: 0 auto 1.75rem auto; position: relative;">
+          <div class="search-trigger" style="width: 100%; padding: 1.2rem 1.5rem; font-size: 1.15rem; border-radius: var(--radius-lg); background: #ffffff; box-shadow: 0 20px 35px -10px rgba(236, 72, 153, 0.25), 0 10px 20px -5px rgba(139, 92, 246, 0.15); border: 2.5px solid #c084fc; justify-content: space-between;">
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <span style="font-weight: 700; color: #475569;">What do you want to calculate?</span>
+            </div>
+            <span class="btn-primary" style="padding: 0.55rem 1.3rem; font-size: 0.95rem; border-radius: var(--radius-md); min-width: auto; flex: none;">Search 3D</span>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="#popular" class="btn-primary" style="padding: 0.9rem 2.2rem;">Explore All 40 Calculators</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- Monetization Ad Placeholder -->
+      <div class="ad-placeholder">Advertisement Placeholder — Instant Client-Side SaaS</div>
+
+      <!-- Popular Calculators Section -->
+      <section id="popular" style="margin: 4rem 0;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+          <div>
+            <h2 style="font-size: 2rem; font-weight: 900; letter-spacing: -0.03em; background: linear-gradient(135deg, #ec4899, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Popular Everyday 3D Calculators</h2>
+            <p style="color: var(--text-muted); font-size: 1rem; font-weight: 600;">Most used tools by thousands of users daily</p>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+          <!-- 8 Featured Calculators Cards with Colorful Borders -->
+          <a href="/calculators/tip-calculator.html" class="related-card hero-3d-card" style="padding: 1.75rem; border-radius: var(--radius-lg); border: 2px solid #fbcfe8;">
+            <div style="font-size: 2.3rem; margin-bottom: 0.6rem;">💵</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: #db2777; margin-bottom: 0.35rem;">Tip Calculator</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Calculate server tips, split dining bills per person with 15%, 18%, 20%, 25% presets.</p>
+          </a>
+
+          <a href="/calculators/mortgage-calculator.html" class="related-card hero-3d-card" style="padding: 1.75rem; border-radius: var(--radius-lg); border: 2px solid #ddd6fe;">
+            <div style="font-size: 2.3rem; margin-bottom: 0.6rem;">🏡</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: #7c3aed; margin-bottom: 0.35rem;">Mortgage Calculator</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Estimate monthly principal and interest payments for 15, 20, or 30-year home loans.</p>
+          </a>
+
+          <a href="/calculators/discount-calculator.html" class="related-card hero-3d-card" style="padding: 1.75rem; border-radius: var(--radius-lg); border: 2px solid #fecdd3;">
+            <div style="font-size: 2.3rem; margin-bottom: 0.6rem;">🏷️</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: #e11d48; margin-bottom: 0.35rem;">Discount Calculator</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Find final sale prices and dollar savings after percentage discounts on shopping deals.</p>
+          </a>
+
+          <a href="/calculators/gas-cost-calculator.html" class="related-card hero-3d-card" style="padding: 1.75rem; border-radius: var(--radius-lg); border: 2px solid #fef3c7;">
+            <div style="font-size: 2.3rem; margin-bottom: 0.6rem;">⛽</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: #d97706; margin-bottom: 0.35rem;">Gas Cost Calculator</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Compute fuel expense for road trips and daily driving based on vehicle MPG and gas price.</p>
+          </a>
+
+          <a href="/calculators/age-calculator.html" class="related-card hero-3d-card" style="padding: 1.75rem; border-radius: var(--radius-lg); border: 2px solid #fed7aa;">
+            <div style="font-size: 2.3rem; margin-bottom: 0.6rem;">🎂</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: #ea580c; margin-bottom: 0.35rem;">Age Calculator</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Determine your exact age in years, months, days, and total hours from date of birth.</p>
+          </a>
+
+          <a href="/calculators/sales-tax-calculator.html" class="related-card hero-3d-card" style="padding: 1.75rem; border-radius: var(--radius-lg); border: 2px solid #bfdbfe;">
+            <div style="font-size: 2.3rem; margin-bottom: 0.6rem;">🧾</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: #2563eb; margin-bottom: 0.35rem;">Sales Tax Calculator</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Calculate total store price including custom US state and local sales tax rates.</p>
+          </a>
+
+          <a href="/calculators/compound-interest-calculator.html" class="related-card hero-3d-card" style="padding: 1.75rem; border-radius: var(--radius-lg); border: 2px solid #a7f3d0;">
+            <div style="font-size: 2.3rem; margin-bottom: 0.6rem;">📈</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: #059669; margin-bottom: 0.35rem;">Compound Interest</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">See how investment compounding and monthly contributions grow your wealth over time.</p>
+          </a>
+
+          <a href="/calculators/fahrenheit-to-celsius.html" class="related-card hero-3d-card" style="padding: 1.75rem; border-radius: var(--radius-lg); border: 2px solid #a5f3fc;">
+            <div style="font-size: 2.3rem; margin-bottom: 0.6rem;">🌡️</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: #0891b2; margin-bottom: 0.35rem;">Fahrenheit to Celsius</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Instant bidirectional weather and baking temperature conversion between °F and °C.</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Browse All Categories Section -->
+      <section id="categories" style="margin: 4.5rem 0;">
+        <h2 style="font-size: 2rem; font-weight: 900; letter-spacing: -0.03em; margin-bottom: 2rem; background: linear-gradient(135deg, #0f172a, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Browse All Calculator Categories</h2>
+
+        <!-- Money Category -->
+        <div class="calc-card" style="padding: 2rem; margin-bottom: 1.75rem; border-top: 4px solid #10b981;">
+          <h3 style="font-size: 1.3rem; font-weight: 900; color: #059669; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.6rem;">
+            <span>💰 Money & Personal Finance</span>
+          </h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.85rem;">
+            <a href="/calculators/tip-calculator.html">Tip Calculator</a>
+            <a href="/calculators/discount-calculator.html">Discount Calculator</a>
+            <a href="/calculators/sales-tax-calculator.html">Sales Tax Calculator</a>
+            <a href="/calculators/split-bill-calculator.html">Split Bill Calculator</a>
+            <a href="/calculators/percentage-calculator.html">Percentage Calculator</a>
+            <a href="/calculators/simple-interest-calculator.html">Simple Interest Calculator</a>
+            <a href="/calculators/compound-interest-calculator.html">Compound Interest Calculator</a>
+            <a href="/calculators/loan-payment-calculator.html">Loan Payment Calculator</a>
+            <a href="/calculators/hourly-to-salary-calculator.html">Hourly to Salary</a>
+            <a href="/calculators/salary-to-hourly-calculator.html">Salary to Hourly</a>
+          </div>
+        </div>
+
+        <!-- Home Category -->
+        <div class="calc-card" style="padding: 2rem; margin-bottom: 1.75rem; border-top: 4px solid #8b5cf6;">
+          <h3 style="font-size: 1.3rem; font-weight: 900; color: #7c3aed; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.6rem;">
+            <span>🏠 Home & Real Estate</span>
+          </h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.85rem;">
+            <a href="/calculators/mortgage-calculator.html">Mortgage Calculator</a>
+            <a href="/calculators/home-affordability-calculator.html">Home Affordability</a>
+            <a href="/calculators/rent-vs-buy-calculator.html">Rent vs Buy</a>
+            <a href="/calculators/electricity-cost-calculator.html">Electricity Cost</a>
+            <a href="/calculators/area-calculator.html">Area Calculator</a>
+          </div>
+        </div>
+
+        <!-- Car & Travel Category -->
+        <div class="calc-card" style="padding: 2rem; margin-bottom: 1.75rem; border-top: 4px solid #f59e0b;">
+          <h3 style="font-size: 1.3rem; font-weight: 900; color: #d97706; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.6rem;">
+            <span>🚗 Car & Travel</span>
+          </h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.85rem;">
+            <a href="/calculators/gas-cost-calculator.html">Gas Cost Calculator</a>
+            <a href="/calculators/mpg-calculator.html">MPG Calculator</a>
+            <a href="/calculators/road-trip-cost-calculator.html">Road Trip Cost</a>
+            <a href="/calculators/fuel-cost-calculator.html">Fuel Refill Cost</a>
+            <a href="/calculators/car-loan-calculator.html">Car Loan Calculator</a>
+          </div>
+        </div>
+
+        <!-- Date & Time Category -->
+        <div class="calc-card" style="padding: 2rem; margin-bottom: 1.75rem; border-top: 4px solid #ec4899;">
+          <h3 style="font-size: 1.3rem; font-weight: 900; color: #db2777; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.6rem;">
+            <span>📅 Date & Time</span>
+          </h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.85rem;">
+            <a href="/calculators/age-calculator.html">Age Calculator</a>
+            <a href="/calculators/date-difference-calculator.html">Date Difference</a>
+            <a href="/calculators/days-until-calculator.html">Days Until Date</a>
+            <a href="/calculators/workdays-calculator.html">Workdays Calculator</a>
+            <a href="/calculators/time-difference-calculator.html">Time Difference</a>
+          </div>
+        </div>
+
+        <!-- Shopping Category -->
+        <div class="calc-card" style="padding: 2rem; margin-bottom: 1.75rem; border-top: 4px solid #a855f7;">
+          <h3 style="font-size: 1.3rem; font-weight: 900; color: #9333ea; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.6rem;">
+            <span>🛍️ Shopping & Deals</span>
+          </h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.85rem;">
+            <a href="/calculators/sale-price-calculator.html">Sale Price Calculator</a>
+            <a href="/calculators/percentage-off-calculator.html">Percentage Off</a>
+            <a href="/calculators/unit-price-calculator.html">Unit Price Calculator</a>
+            <a href="/calculators/buy-one-get-one-calculator.html">BOGO Calculator</a>
+            <a href="/calculators/price-comparison-calculator.html">Price Comparison</a>
+          </div>
+        </div>
+
+        <!-- Converters Category -->
+        <div class="calc-card" style="padding: 2rem; border-top: 4px solid #06b6d4;">
+          <h3 style="font-size: 1.3rem; font-weight: 900; color: #0891b2; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.6rem;">
+            <span>🔄 Instant Unit Converters</span>
+          </h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.85rem;">
+            <a href="/calculators/miles-to-km.html">Miles to Kilometers</a>
+            <a href="/calculators/km-to-miles.html">Kilometers to Miles</a>
+            <a href="/calculators/pounds-to-kg.html">Pounds to Kilograms</a>
+            <a href="/calculators/kg-to-pounds.html">Kilograms to Pounds</a>
+            <a href="/calculators/feet-to-inches.html">Feet to Inches</a>
+            <a href="/calculators/feet-inches-to-cm.html">Feet/Inches to cm</a>
+            <a href="/calculators/fahrenheit-to-celsius.html">Fahrenheit to Celsius</a>
+            <a href="/calculators/celsius-to-fahrenheit.html">Celsius to Fahrenheit</a>
+            <a href="/calculators/gallons-to-liters.html">Gallons to Liters</a>
+            <a href="/calculators/ounces-to-grams.html">Ounces to Grams</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why SmartLifeCalc Section -->
+      <section style="margin: 4.5rem 0; background: linear-gradient(135deg, #fdf2f8 0%, #f3e8ff 50%, #e0f2fe 100%); border-radius: var(--radius-lg); padding: 3.5rem 2rem; text-align: center; border: 2px solid #c084fc; box-shadow: var(--shadow-lg);">
+        <h2 style="font-size: 2.2rem; font-weight: 900; color: var(--text-main); margin-bottom: 1rem;">Why Use SmartLifeCalc?</h2>
+        <p style="font-size: 1.15rem; color: var(--text-muted); max-width: 620px; margin: 0 auto 2.75rem auto; font-weight: 600;">Designed for maximum vibrant 3D visual elegance, speed, accuracy, and absolute privacy for US users.</p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem; text-align: left;">
+          <div class="calc-card" style="padding: 1.75rem;">
+            <div style="font-size: 2rem; margin-bottom: 0.6rem;">🔒</div>
+            <h3 style="font-size: 1.15rem; font-weight: 800; margin-bottom: 0.35rem; color: #ec4899;">100% Private & Local</h3>
+            <p style="font-size: 0.925rem; color: var(--text-muted);">Calculations run instantly inside your browser. No financial data or personal entries are sent to remote servers.</p>
+          </div>
+
+          <div class="calc-card" style="padding: 1.75rem;">
+            <div style="font-size: 2rem; margin-bottom: 0.6rem;">⚡</div>
+            <h3 style="font-size: 1.15rem; font-weight: 800; margin-bottom: 0.35rem; color: #8b5cf6;">Ultra Fast 3D UI</h3>
+            <p style="font-size: 0.925rem; color: var(--text-muted);">Zero page reloads or delays. Interactive 3D depth cards update instantly as you type numbers or click presets.</p>
+          </div>
+
+          <div class="calc-card" style="padding: 1.75rem;">
+            <div style="font-size: 2rem; margin-bottom: 0.6rem;">📱</div>
+            <h3 style="font-size: 1.15rem; font-weight: 800; margin-bottom: 0.35rem; color: #3b82f6;">Mobile App UX</h3>
+            <p style="font-size: 0.925rem; color: var(--text-muted);">Optimized for iPhone and Android screens with large tap targets, quick preset buttons, and readable numbers.</p>
+          </div>
+
+          <div class="calc-card" style="padding: 1.75rem;">
+            <div style="font-size: 2rem; margin-bottom: 0.6rem;">🆓</div>
+            <h3 style="font-size: 1.15rem; font-weight: 800; margin-bottom: 0.35rem; color: #10b981;">No Login Required</h3>
+            <p style="font-size: 0.925rem; color: var(--text-muted);">No account signup, no paywalls, and no subscription fees. Always free to use whenever you need it.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-section" style="margin: 4.5rem 0;">
+        <h2 style="font-size: 1.85rem; font-weight: 900; margin-bottom: 1.75rem; background: linear-gradient(135deg, #0f172a, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Are calculations on SmartLifeCalc accurate and reliable?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            Yes! All formulas use standard mathematical and financial algorithms. For financial estimators such as mortgages and loan payments, results provide realistic estimations based on US industry standard compounding rules.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is my personal data saved or transmitted?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            No. Your calculator inputs are processed locally within your web browser using JavaScript. No inputs are stored or transmitted to external servers.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do I need to sign up or create an account?</span>
+            <span class="faq-icon">▼</span>
+          </button>
+          <div class="faq-answer">
+            No registration or email is required. You can access and use every calculator on SmartLifeCalc instantly.
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>SmartLifeCalc</h3>
+          <p>Simple 3D calculators for everyday life. Fast, private, mobile-first everyday utility calculators for US users.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Money</h4>
+          <ul>
+            <li><a href="/calculators/tip-calculator.html">Tip Calculator</a></li>
+            <li><a href="/calculators/discount-calculator.html">Discount Calculator</a></li>
+            <li><a href="/calculators/sales-tax-calculator.html">Sales Tax Calculator</a></li>
+            <li><a href="/calculators/loan-payment-calculator.html">Loan Payment</a></li>
+            <li><a href="/calculators/compound-interest-calculator.html">Compound Interest</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Home & Travel</h4>
+          <ul>
+            <li><a href="/calculators/mortgage-calculator.html">Mortgage Calculator</a></li>
+            <li><a href="/calculators/rent-vs-buy-calculator.html">Rent vs Buy</a></li>
+            <li><a href="/calculators/gas-cost-calculator.html">Gas Cost Calculator</a></li>
+            <li><a href="/calculators/mpg-calculator.html">MPG Calculator</a></li>
+            <li><a href="/calculators/road-trip-cost-calculator.html">Road Trip Cost</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Converters & Legal</h4>
+          <ul>
+            <li><a href="/calculators/miles-to-km.html">Miles to Kilometers</a></li>
+            <li><a href="/calculators/fahrenheit-to-celsius.html">Fahrenheit to Celsius</a></li>
+            <li><a href="/legal/privacy.html">Privacy Policy</a></li>
+            <li><a href="/legal/terms.html">Terms of Use</a></li>
+            <li><a href="/legal/disclaimer.html">Financial Disclaimer</a></li>
+            <li><a href="/legal/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="legal-disclaimer-notice">
+        <strong>Legal Disclaimer:</strong> Results provided by SmartLifeCalc calculators are estimates for informational purposes only and may differ from actual amounts. Always verify critical financial, tax, or legal information with an appropriate licensed professional or official authority.
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 SmartLifeCalc. All rights reserved.</p>
+        <p>Built for speed & privacy.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search Modal Overlay -->
+  <div class="search-modal-overlay" id="searchModalOverlay">
+    <div class="search-modal">
+      <div class="search-input-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="modalSearchInput" placeholder="Type a calculator name or keyword (e.g. tip, mortgage, gas)...">
+        <button class="search-close-btn" id="searchCloseBtn">✕</button>
+      </div>
+      <div class="search-results-list" id="searchResultsList"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/js/data/calculators-registry.js"></script>
+  <script src="/js/calculator-engine.js"></script>
+  <script src="/js/3d-effects.js"></script>
+  <script src="/js/interactive-eye.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
