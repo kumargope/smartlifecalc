@@ -628,19 +628,14 @@
   color: #ec4899;
 }
 
-/* Ad Placeholder */
+/* Ad Container */
 .ad-placeholder {
-  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-  border: 2px dashed #cbd5e1;
-  border-radius: var(--radius-md);
-  padding: 1.5rem;
-  text-align: center;
-  color: #94a3b8;
-  font-size: 0.85rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  display: none !important;
+}
+
+.ad-container {
   margin: 1.5rem 0;
+  text-align: center;
 }
 
 /* Related Calculators Grid */
