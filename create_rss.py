@@ -5,8 +5,8 @@ reg_path = r'C:\Users\Mukesh\.gemini\antigravity\scratch\smartlifecalc\js\data\c
 with open(reg_path, 'r', encoding='utf-8') as f:
     js_content = f.read()
 
-# Match each object { id: '...', slug: '...', name: '...', title: '...', category: '...', desc: '...' }
-pattern = re.compile(r"\{\s*id:\s*'([^']+)',\s*slug:\s*'([^']+)',\s*name:\s*'([^']+)',\s*title:\s*'([^']+)',\s*category:\s*'([^']+)',\s*desc:\s*'([^']+)'", re.DOTALL)
+# Match each object in CALCULATORS_REGISTRY
+pattern = re.compile(r'\{\s*id:\s*"([^"]+)",\s*title:\s*"([^"]+)",\s*category:\s*"([^"]+)",\s*url:\s*"([^"]+)",\s*description:\s*"([^"]+)"', re.DOTALL)
 
 matches = pattern.findall(js_content)
 
@@ -14,15 +14,15 @@ rss_items = []
 base_url = 'https://smartlifecalc.vercel.app'
 pins_dir = r'C:\Users\Mukesh\.gemini\antigravity\scratch\smartlifecalc\assets\pins'
 
-for cid, slug, name, title, cat, desc in matches:
-    link = f"{base_url}/calculators/{slug}.html"
+for cid, title, cat, url, desc in matches:
+    slug = cid
+    link = f"{base_url}{url}"
     pin_filename = f"{slug}-pin.png"
     if os.path.exists(os.path.join(pins_dir, pin_filename)):
         img_url = f"{base_url}/assets/pins/{pin_filename}"
     else:
         img_url = f"{base_url}/assets/pinterest-banner.png"
     
-    # escape XML special chars
     title_xml = title.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
     desc_xml = desc.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 

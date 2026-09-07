@@ -5,6 +5,325 @@
   <link>https://smartlifecalc.vercel.app</link>
   <description>Free 3D vibrant calculators for money, home, car, date, shopping and converters.</description>
   <language>en-us</language>
-
+    <item>
+      <title>Tip Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/tip-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/tip-calculator.html</guid>
+      <description>Calculate tip amounts, total bills, and split per person instantly. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pins/tip-calculator-pin.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Discount Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/discount-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/discount-calculator.html</guid>
+      <description>Find your final sale price and savings amount after percentage discounts. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pins/discount-calculator-pin.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sales Tax Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/sales-tax-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/sales-tax-calculator.html</guid>
+      <description>Calculate total cost with state or local US sales tax included. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Split Bill Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/split-bill-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/split-bill-calculator.html</guid>
+      <description>Split group restaurant bills, party expenses, and tips evenly. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Percentage Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/percentage-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/percentage-calculator.html</guid>
+      <description>Calculate percentage increases, decreases, and fractions of numbers. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Simple Interest Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/simple-interest-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/simple-interest-calculator.html</guid>
+      <description>Compute simple interest growth on principal investments or loans. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Compound Interest Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/compound-interest-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/compound-interest-calculator.html</guid>
+      <description>Calculate how compound interest grows your investments over time. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Loan Payment Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/loan-payment-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/loan-payment-calculator.html</guid>
+      <description>Calculate monthly payments and total interest for personal loans. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hourly to Salary Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/hourly-to-salary-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/hourly-to-salary-calculator.html</guid>
+      <description>Convert hourly pay rate into annual, monthly, and weekly salary totals. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Salary to Hourly Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/salary-to-hourly-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/salary-to-hourly-calculator.html</guid>
+      <description>Convert annual salary into equivalent hourly wage rate. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mortgage Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/mortgage-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/mortgage-calculator.html</guid>
+      <description>Calculate estimated monthly mortgage principal, interest, and loan totals. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pins/mortgage-calculator-pin.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Home Affordability Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/home-affordability-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/home-affordability-calculator.html</guid>
+      <description>Estimate maximum home price you can afford based on income and debt. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rent vs Buy Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/rent-vs-buy-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/rent-vs-buy-calculator.html</guid>
+      <description>Compare total long-term costs of renting vs purchasing a home. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Electricity Cost Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/electricity-cost-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/electricity-cost-calculator.html</guid>
+      <description>Calculate energy consumption cost for household appliances and devices. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Area Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/area-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/area-calculator.html</guid>
+      <description>Calculate square footage and area for rectangular, circular, and triangular rooms. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gas Cost Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/gas-cost-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/gas-cost-calculator.html</guid>
+      <description>Calculate fuel expenses for any driving trip distance. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pins/gas-cost-calculator-pin.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MPG Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/mpg-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/mpg-calculator.html</guid>
+      <description>Determine your vehicle's fuel efficiency in Miles Per Gallon. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Road Trip Cost Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/road-trip-cost-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/road-trip-cost-calculator.html</guid>
+      <description>Calculate total gas, tolls, and split costs per person for road trips. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fuel Cost Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/fuel-cost-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/fuel-cost-calculator.html</guid>
+      <description>Calculate full tank refill cost based on current gas price. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Car Loan Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/car-loan-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/car-loan-calculator.html</guid>
+      <description>Calculate monthly auto loan payments, interest fees, and total vehicle cost. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Age Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/age-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/age-calculator.html</guid>
+      <description>Calculate your exact age in years, months, days, and total days. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pins/age-calculator-pin.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Date Difference Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/date-difference-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/date-difference-calculator.html</guid>
+      <description>Calculate exact number of days, weeks, and months between two dates. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Days Until Date Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/days-until-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/days-until-calculator.html</guid>
+      <description>Count down days remaining until holidays, birthdays, or target events. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Workdays Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/workdays-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/workdays-calculator.html</guid>
+      <description>Count total business workdays between dates excluding weekends. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Time Difference Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/time-difference-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/time-difference-calculator.html</guid>
+      <description>Calculate hours and minutes elapsed between two clock times. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sale Price Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/sale-price-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/sale-price-calculator.html</guid>
+      <description>Calculate final price after double discounts and promotional sales. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Percentage Off Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/percentage-off-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/percentage-off-calculator.html</guid>
+      <description>Quickly figure out how much you save with percentage off deals. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Unit Price Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/unit-price-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/unit-price-calculator.html</guid>
+      <description>Determine cost per ounce, pound, gram, or count to compare store deals. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Buy One Get One Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/buy-one-get-one-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/buy-one-get-one-calculator.html</guid>
+      <description>Calculate true savings and per-item cost on BOGO promotional deals. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Price Comparison Calculator — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/price-comparison-calculator.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/price-comparison-calculator.html</guid>
+      <description>Compare two package options to find which item offers the best value. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Miles to Kilometers Converter — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/miles-to-km.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/miles-to-km.html</guid>
+      <description>Convert distance from US Miles to Metric Kilometers instantly. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kilometers to Miles Converter — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/km-to-miles.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/km-to-miles.html</guid>
+      <description>Convert distance from Kilometers to US Miles instantly. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pounds to Kilograms Converter — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/pounds-to-kg.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/pounds-to-kg.html</guid>
+      <description>Convert bodyweight and mass from Pounds (lbs) to Kilograms (kg). Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kilograms to Pounds Converter — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/kg-to-pounds.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/kg-to-pounds.html</guid>
+      <description>Convert mass from Kilograms (kg) to Pounds (lbs) instantly. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Feet to Inches Converter — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/feet-to-inches.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/feet-to-inches.html</guid>
+      <description>Convert height or length measurements from Feet to Inches. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Feet/Inches to Centimeters — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/feet-inches-to-cm.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/feet-inches-to-cm.html</guid>
+      <description>Convert height in Feet and Inches to Metric Centimeters (cm). Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fahrenheit to Celsius Converter — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/fahrenheit-to-celsius.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/fahrenheit-to-celsius.html</guid>
+      <description>Convert weather and cooking temperature from °F to °C. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Celsius to Fahrenheit Converter — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/celsius-to-fahrenheit.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/celsius-to-fahrenheit.html</guid>
+      <description>Convert temperature from Metric Celsius (°C) to US Fahrenheit (°F). Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gallons to Liters Converter — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/gallons-to-liters.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/gallons-to-liters.html</guid>
+      <description>Convert US liquid volume from Gallons to Metric Liters. Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ounces to Grams Converter — Free 3D Calculator</title>
+      <link>https://smartlifecalc.vercel.app/calculators/ounces-to-grams.html</link>
+      <guid>https://smartlifecalc.vercel.app/calculators/ounces-to-grams.html</guid>
+      <description>Convert weight from US Ounces (oz) to Metric Grams (g). Fast 100% free US everyday 3D calculator.</description>
+      <enclosure url="https://smartlifecalc.vercel.app/assets/pinterest-banner.png" type="image/png" />
+      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+    </item>
 </channel>
 </rss>
