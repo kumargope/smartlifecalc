@@ -151,7 +151,7 @@ function initAnalyticsPlaceholder() {
 // 6. Pinterest Share Action Helper (with valid media parameter fallback)
 function shareToPinterest(url, image, description) {
   // Default image URL if none provided
-  const mediaUrl = image || 'https://smartlifecalc.com/assets/pinterest-banner.png';
+  const mediaUrl = image || 'https://smartlifecalc.vercel.app/assets/pinterest-banner.png';
   const pinUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(url)}&media=${encodeURIComponent(mediaUrl)}&description=${encodeURIComponent(description)}`;
   
   window.open(pinUrl, 'pinterestShareWindow', 'width=750,height=600,toolbar=no,menubar=no,scrollbars=yes');

@@ -46,9 +46,9 @@ def render_calculator_html(c):
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://smartlifecalc.com/"},
-            {"@type": "ListItem", "position": 2, "name": c['category'], "item": f"https://smartlifecalc.com/#categories"},
-            {"@type": "ListItem", "position": 3, "name": c['title'], "item": f"https://smartlifecalc.com{c['url']}"}
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://smartlifecalc.vercel.app/"},
+            {"@type": "ListItem", "position": 2, "name": c['category'], "item": f"https://smartlifecalc.vercel.app/#categories"},
+            {"@type": "ListItem", "position": 3, "name": c['title'], "item": f"https://smartlifecalc.vercel.app{c['url']}"}
         ]
     }, indent=2)
 
@@ -56,7 +56,7 @@ def render_calculator_html(c):
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": f"{c['title']} — SmartLifeCalc",
-        "url": f"https://smartlifecalc.com{c['url']}",
+        "url": f"https://smartlifecalc.vercel.app{c['url']}",
         "description": c['meta_desc'],
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "All"
@@ -71,13 +71,13 @@ def render_calculator_html(c):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{c['title']} — SmartLifeCalc</title>
   <meta name="description" content="{c['meta_desc']}">
-  <link rel="canonical" href="https://smartlifecalc.com{c['url']}">
+  <link rel="canonical" href="https://smartlifecalc.vercel.app{c['url']}">
 
   <!-- OpenGraph / Social Metadata -->
   <meta property="og:title" content="{c['title']} — SmartLifeCalc">
   <meta property="og:description" content="{c['meta_desc']}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://smartlifecalc.com{c['url']}">
+  <meta property="og:url" content="https://smartlifecalc.vercel.app{c['url']}">
 
   <!-- Twitter Metadata -->
   <meta name="twitter:card" content="summary">
@@ -200,7 +200,7 @@ def render_calculator_html(c):
                 <h3>Save this calculator for later</h3>
                 <p>Pin {c['title']} to your favorite Pinterest board for fast access anytime!</p>
               </div>
-              <button class="pinterest-btn" onclick="shareToPinterest('https://smartlifecalc.com{c['url']}', '', '{c['title']} — Free Everyday Calculator on SmartLifeCalc')">
+              <button class="pinterest-btn" onclick="shareToPinterest('https://smartlifecalc.vercel.app{c['url']}', '', '{c['title']} — Free Everyday Calculator on SmartLifeCalc')">
                 <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
                 Save to Pinterest
               </button>

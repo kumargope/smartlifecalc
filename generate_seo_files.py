@@ -1,6 +1,6 @@
 import os
 
-BASE_URL = "https://smartlifecalc.com"
+BASE_URL = "https://smartlifecalc.vercel.app"
 
 # 40 Calculators + Homepage + Legal
 urls = [
@@ -54,7 +54,7 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
-Sitemap: https://smartlifecalc.com/sitemap.xml
+Sitemap: https://smartlifecalc.vercel.app/sitemap.xml
 """
 
 with open(r"C:\Users\Mukesh\.gemini\antigravity\scratch\smartlifecalc\robots.txt", "w", encoding="utf-8") as f:
